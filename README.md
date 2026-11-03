@@ -1,1 +1,0 @@
-# medmnemo.github.io
