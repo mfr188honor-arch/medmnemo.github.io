@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f5ef">
+  <meta name="description" content="Расширение для браузера, которое превращает прочитанное в короткие вопросы и помогает медицинским специалистам не забывать изученное.">
+  <title>мнемо — помните важное из прочитанного</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header wrap">
+      <a class="brand" href="#top" aria-label="мнемо — на главную">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>мнемо<span class="brand-dot">.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#how">Как работает</a>
+        <a href="#why">Для медиков</a>
+        <a href="#faq">Вопросы</a>
+      </nav>
+      <a class="header-cta" href="#early-access">Ранний доступ <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> ИНСТРУМЕНТ ДЛЯ МЕДИЦИНСКОГО ОБУЧЕНИЯ</div>
+          <h1>Вы прочитали это на прошлой неделе. <em>Что из этого</em> вы помните?</h1>
+          <p class="hero-lead">Расширение для браузера, которое превращает прочитанное в клинике, лекциях и статьях в короткие вопросы и возвращает их вам ровно тогда, когда вы начинаете забывать.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#early-access">Хочу ранний доступ <span aria-hidden="true">→</span></a>
+            <span class="hero-micro"><span class="micro-icon">◷</span> Всего 30 секунд в день</span>
+          </div>
+          <div class="hero-footnote"><span class="tiny-check">✓</span> Базовая версия будет бесплатной</div>
+        </div>
+
+        <div class="product-visual" aria-label="Иллюстрация интерфейса расширения: сохранённый фрагмент и карточка для повторения">
+          <div class="visual-topline">
+            <span class="browser-dots"><i></i><i></i><i></i></span>
+            <span class="browser-label">ВАША УЧЁБА, ТОЛЬКО УМНЕЕ</span>
+            <span class="visual-spark">✳</span>
+          </div>
+          <div class="source-card">
+            <div class="source-meta"><span class="source-tag">PUBMED · ОБЗОР</span><span>Сохранено сегодня</span></div>
+            <div class="source-title">Контроль артериального давления у пациентов с...</div>
+            <div class="source-lines"><i></i><i></i><i></i></div>
+            <div class="saved-label"><span>↳</span> Фрагмент добавлен в память</div>
+          </div>
+          <div class="review-card">
+            <div class="review-head"><span class="review-label">ВОПРОС ДНЯ</span><span class="review-count">01 / 03</span></div>
+            <div class="review-question">Почему при хронической сердечной недостаточности назначают ингибиторы АПФ?</div>
+            <div class="review-source">ИСТОЧНИК · ВАШ СОХРАНЁННЫЙ ФРАГМЕНТ <span>↗</span></div>
+            <div class="review-divider"></div>
+            <div class="review-buttons"><span class="remember">Помню <b>✓</b></span><span class="forget">Не помню <b>↻</b></span></div>
+          </div>
+          <div class="floating-note note-left"><span class="note-icon">✳</span><span><b>30 сек.</b><small>и вы свободны</small></span></div>
+          <div class="floating-note note-right"><span class="note-number">21</span><span><b>день</b><small>следующее повторение</small></span></div>
+          <div class="visual-caption">НЕ БОЛЬШЕ ЗНАНИЙ. БОЛЬШЕ ТОГО, ЧТО ОСТАЛОСЬ.</div>
+        </div>
+      </section>
+
+      <section class="signal-bar wrap" aria-label="Источники для сохранения">
+        <span>СОХРАНЯЙТЕ ИЗ ТОГО, ЧТО УЖЕ ЧИТАЕТЕ</span>
+        <div class="signal-items"><b>Учебники</b><i></i><b>Клинические рекомендации</b><i></i><b>PubMed</b><i></i><b>Лекции</b></div>
+      </section>
+
+      <section class="section how-section" id="how">
+        <div class="wrap">
+          <div class="section-heading">
+            <div class="eyebrow">ПРОСТО ВСТРОИТЬ В ПРИВЫЧКУ</div>
+            <h2>От прочитанного<br><em>к запомненному.</em></h2>
+            <p>Никакой второй работы после учёбы. Просто сохраняйте важное по ходу чтения.</p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card">
+              <div class="step-top"><span class="step-number">01</span><span class="step-symbol symbol-book">▤</span></div>
+              <h3>Читайте как обычно.</h3>
+              <p>Учебник, клинические рекомендации, статья в PubMed — там, где вы уже учитесь и работаете.</p>
+              <div class="step-visual reading-visual"><span class="paper-line long"></span><span class="paper-line"></span><span class="paper-line medium"></span><span class="paper-highlight"></span><span class="paper-line short"></span></div>
+            </article>
+            <article class="step-card step-card-featured">
+              <div class="step-top"><span class="step-number">02</span><span class="step-symbol symbol-save">↗</span></div>
+              <h3>Нажмите «Запомнить».</h3>
+              <p>Расширение выделит главное и подготовит вопросы — в том числе на понимание, а не только на термины.</p>
+              <div class="step-visual save-visual"><span class="save-chip"><span>✳</span> Запомнить</span><span class="save-orbit orbit-one"></span><span class="save-orbit orbit-two"></span><span class="save-core">✓</span></div>
+            </article>
+            <article class="step-card">
+              <div class="step-top"><span class="step-number">03</span><span class="step-symbol symbol-time">◷</span></div>
+              <h3>Отвечайте по 30 секунд в день.</h3>
+              <p>Вопросы возвращаются через 1, 3, 7 и 21 день. Интервалы подстраиваются под ваши ответы.</p>
+              <div class="step-visual timeline-visual"><span class="timeline-line"></span><span class="timeline-point p1">1</span><span class="timeline-point p2">3</span><span class="timeline-point p3">7</span><span class="timeline-point p4">21</span><small>день</small></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section why-section" id="why">
+        <div class="wrap why-layout">
+          <div class="why-intro">
+            <div class="eyebrow">ПОЧЕМУ ИМЕННО ДЛЯ МЕДИКОВ</div>
+            <h2>Знать мало.<br><em>Важно помнить.</em></h2>
+            <p>Медицинские знания должны быть под рукой не только во время чтения, но и тогда, когда они нужны в практике.</p>
+            <div class="why-stamp"><span>✳</span> СОЗДАНО ДЛЯ ДЛИННОЙ ДИСТАНЦИИ В ОБУЧЕНИИ</div>
+          </div>
+          <div class="reason-list">
+            <article class="reason-item"><span class="reason-index">01</span><div><h3>Слишком много деталей, которые нельзя забыть.</h3><p>Дозировки, критерии диагностики, алгоритмы — в программе обучения тысячи фактов. Прочитать их мало, нужно удержать всё в голове.</p></div></article>
+            <article class="reason-item"><span class="reason-index">02</span><div><h3>Без часов ручной подготовки карточек.</h3><p>Anki работает, но карточки приходится делать вручную. Здесь вопросы появляются из материалов, которые вы и так читаете.</p></div></article>
+            <article class="reason-item"><span class="reason-index">03</span><div><h3>Понимать причины, а не только помнить слова.</h3><p>Вопросы проверяют понимание: например, «почему при этом состоянии назначают этот препарат?»</p></div></article>
+            <article class="reason-item"><span class="reason-index">04</span><div><h3>Готовиться системно.</h3><p>Подходит для подготовки к экзаменам и аккредитации — небольшими повторениями между другими делами.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="privacy-band">
+        <div class="wrap privacy-inner">
+          <div class="privacy-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 5 39 11v11c0 10-6.4 17-15 21C15.4 39 9 32 9 22V11L24 5Z" stroke="currentColor" stroke-width="1.8"/><path d="M17 24.5 22 29l10-11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div class="privacy-copy"><div class="eyebrow">ВАШИ ДАННЫЕ — ВАШИ</div><h2>Учитесь спокойно.<br><em>Без лишнего доступа.</em></h2></div>
+          <p>Ваши материалы хранятся на вашем устройстве. Мы не продаём данные и не просим доступ ко всей истории браузера.</p>
+          <div class="privacy-side-note"><span>↳</span> Приватность — не дополнительная функция, а основа продукта.</div>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq">
+        <div class="wrap faq-layout">
+          <div class="section-heading faq-heading"><div class="eyebrow">ЕСТЬ ВОПРОСЫ?</div><h2>Коротко<br><em>по делу.</em></h2><p>Самое важное о том, как устроен продукт.</p></div>
+          <div class="faq-list">
+            <details class="faq-item" open><summary>Это заменяет учебник?<span class="faq-plus"></span></summary><p>Нет. Это помогает не забывать то, что вы уже изучили. Первичный источник знаний остаётся главным.</p></details>
+            <details class="faq-item"><summary>Можно доверять вопросам?<span class="faq-plus"></span></summary><p>Каждый вопрос показывает фрагмент источника, из которого он создан, чтобы вы всегда могли проверить информацию.</p></details>
+            <details class="faq-item"><summary>Сколько стоит?<span class="faq-plus"></span></summary><p>Базовая версия будет бесплатной.</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="access-section" id="early-access">
+        <div class="wrap access-layout">
+          <div class="access-copy">
+            <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> ПЕРВЫЕ 100 УЧАСТНИКОВ</div>
+            <h2>Пусть важное<br><em>остаётся с вами.</em></h2>
+            <p>Оставьте контакт — первые 100 студентов получат доступ раньше всех и смогут влиять на то, какой станет программа.</p>
+            <div class="access-points"><span><b>01</b> Ранний доступ</span><span><b>02</b> Влияние на развитие</span><span><b>03</b> Базовая версия бесплатно</span></div>
+          </div>
+          <div class="form-card">
+            <div class="form-card-top"><span class="form-kicker">СПИСОК РАННЕГО ДОСТУПА</span><span class="form-status"><i></i> НАБОР ОТКРЫТ</span></div>
+            <h3>Оставьте заявку</h3>
+            <p class="form-intro">Выберите удобный способ связи. Email обязателен, телефон можно добавить по желанию.</p>
+            <!-- Перед публикацией замените your-email@example.com на адрес, на который должны приходить заявки. -->
+            <form class="signup-form" action="https://formsubmit.co/medmnemo56@gmail.com" method="POST">
+              <input type="hidden" name="_subject" value="Заявка на ранний доступ — мнемо">
+              <input type="hidden" name="_template" value="table">
+              <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+              <label for="email">Ваш email</label>
+              <input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+              <label for="phone">Номер телефона <span>(необязательно)</span></label>
+              <input id="phone" name="phone" type="tel" placeholder="+7 900 000-00-00" autocomplete="tel">
+              <label class="consent"><input type="checkbox" name="consent" value="Согласен(на) на обработку контактных данных" required><span>Согласен(на) на обработку контактных данных для связи по поводу раннего доступа и ознакомлен(а) с <a href="privacy.html" target="_blank" rel="noopener">Политикой конфиденциальности</a>.</span></label>
+              <button class="button button-submit" type="submit">Хочу ранний доступ <span aria-hidden="true">→</span></button>
+              <div class="form-note"><span>⌁</span> Никакого спама. Только новости о запуске и доступе.</div>
+            </form>
+          </div>
+        </div>
+        <div class="access-orb orb-a"></div><div class="access-orb orb-b"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer wrap">
+      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span><span>мнемо<span class="brand-dot">.</span></span></a>
+      <span class="footer-caption">МЕНЬШЕ ЗАБЫВАТЬ. БОЛЬШЕ ПОМНИТЬ.</span>
+      <a class="back-top" href="privacy.html">Политика конфиденциальности</a>
+      <a class="back-top" href="#top">Наверх ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
